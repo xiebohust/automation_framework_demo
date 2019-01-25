@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<page>
+    <activity name="login">
+        <element id="login_link">
+            <name>login_link</name>
+            <pathType>ID</pathType>
+            <pathValue>my_profile</pathValue>
+        </element>
+        <element id="email">
+            <name>email</name>
+            <pathType>ID</pathType>
+            <pathValue>returning_email</pathValue>
+        </element>
+        <element id="password">
+            <name>password</name>
+            <pathType>ID</pathType>
+            <pathValue>returning_password</pathValue>
+        </element>
+        <element id="login_bt">
+            <name>login_bt</name>
+            <pathType>XPATH</pathType>
+            <pathValue>/html/body/div[3]/div[2]/div/div[2]/div/div[2]/div/form/div[3]/input[3]</pathValue>
+        </element>
+        <element id="login_error">
+            <name>login_error</name>
+            <pathType>ID</pathType>
+            <pathValue>login_error</pathValue>
+        </element>
+        <element id="login_ok">
+            <name>login_ok</name>
+            <pathType>XPATH</pathType>
+            <pathValue>/html/body/div[1]/div[1]/div[4]/div/div/div/div[3]/div[1]/a/span</pathValue>
+        </element>
+    </activity>
+
+    <activity name="register">
+        <element id="register_link">
+            <name>register_link</name>
+            <pathType>ID</pathType>
+            <pathValue>my_profile</pathValue>
+        </element>
+        <element id="email">
+            <name>email</name>
+            <pathType>ID</pathType>
+            <pathValue>email</pathValue>
+        </element>
+        <element id="password">
+            <name>password</name>
+            <pathType>ID</pathType>
+            <pathValue>password</pathValue>
+        </element>
+        <element id="password1">
+            <name>password1</name>
+            <pathType>ID</pathType>
+            <pathValue>password1</pathValue>
+        </element>
+        <element id="register_bt">
+            <name>register_bt</name>
+            <pathType>ID</pathType>
+            <pathValue>submitBtn</pathValue>
+        </element>
+        <element id="email_error">
+            <name>email_error</name>
+            <pathType>ID</pathType>
+            <pathValue>error_email</pathValue>
+        </element>
+        <element id="register_ok">
+            <name>register_ok</name>
+            <pathType>XPATH</pathType>
+            <pathValue>/html/body/div[1]/div[2]/div/div[1]/p/</pathValue>
+        </element>
+    </activity>
+
+    <activity name="logout">
+        <element id="logout_link">
+            <name>logout_link</name>
+            <pathType>XPATH</pathType>
+            <pathValue>//*[@id="my_profile"]/div/a[9]</pathValue>
+        </element>
+    </activity>
+
+</page>
